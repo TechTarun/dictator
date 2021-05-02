@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dictator/static/css/main.557a0b09.chunk.css",
+    "main.js": "/dictator/static/js/main.a35eeafd.chunk.js",
+    "main.js.map": "/dictator/static/js/main.a35eeafd.chunk.js.map",
+    "runtime-main.js": "/dictator/static/js/runtime-main.1998f4c0.js",
+    "runtime-main.js.map": "/dictator/static/js/runtime-main.1998f4c0.js.map",
+    "static/css/2.54787924.chunk.css": "/dictator/static/css/2.54787924.chunk.css",
+    "static/js/2.17ecc28b.chunk.js": "/dictator/static/js/2.17ecc28b.chunk.js",
+    "static/js/2.17ecc28b.chunk.js.map": "/dictator/static/js/2.17ecc28b.chunk.js.map",
+    "index.html": "/dictator/index.html",
+    "static/css/2.54787924.chunk.css.map": "/dictator/static/css/2.54787924.chunk.css.map",
+    "static/css/main.557a0b09.chunk.css.map": "/dictator/static/css/main.557a0b09.chunk.css.map",
+    "static/js/2.17ecc28b.chunk.js.LICENSE.txt": "/dictator/static/js/2.17ecc28b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1998f4c0.js",
+    "static/css/2.54787924.chunk.css",
+    "static/js/2.17ecc28b.chunk.js",
+    "static/css/main.557a0b09.chunk.css",
+    "static/js/main.a35eeafd.chunk.js"
+  ]
+}
