@@ -14,6 +14,7 @@ class ListenButton extends React.Component {
     this.state =  {
       listening: false,
       output_text: "",
+      button_type:"primary"
     }
     this.toggleListen = this.toggleListen.bind(this);
     this.handleListen = this.handleListen.bind(this);
@@ -21,6 +22,7 @@ class ListenButton extends React.Component {
 
   toggleListen() {
     this.setState({
+      button_type: this.state.listening ? "primary" : "danger",
       listening: !this.state.listening,
     }, this.handleListen)
   }
@@ -60,7 +62,7 @@ class ListenButton extends React.Component {
     return (
       <>
       <div className="listen">
-      <Button type="primary" shape="circle" size="large" icon={<AudioFilled />} onClick={this.toggleListen} />
+      <Button type={this.state.button_type} shape="circle" size="large" icon={<AudioFilled />} onClick={this.toggleListen} />
       </div>
       <OutputBox spoken_text={this.state.output_text} />
       </>
