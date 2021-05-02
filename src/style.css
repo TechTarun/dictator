@@ -1,0 +1,21 @@
+.about {
+  margin: auto;
+  margin-top: 50px;
+  width: 60%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.listen {
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+}
+
+.output {
+  margin: auto;
+  margin-top: 5%;
+  width: 60%;
+}
